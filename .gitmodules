@@ -1,0 +1,6 @@
+[submodule "Infrastructure/Postgre"]
+	path = Infrastructure/Postgres
+	url = https://github.com/Focus-Energia/Postgres.git
+[submodule "Infrastructure/GisHelper"]
+	path = Infrastructure/GisHelper
+	url = https://github.com/Focus-Energia/GisHelper.git
