@@ -31,7 +31,7 @@ Server path and other config values. Follow the list of them:
 
 | Variable | Description | Example |
 |   ---    |     ---     |   ---   |
-|POSTGRE_HOST| Postgres Server host| postgres.focus.energia.ws|
+|POSTGRE_HOST| Postgres Server host| postgres|
 |POSTGRE_PORT| Postgres Server port| 5782|
 |POSTGRE_USERNAME| Postgres username credential| --- |
 |POSTGRE_PASSWORD| Postgres password credential| --- |
@@ -41,7 +41,7 @@ Server path and other config values. Follow the list of them:
 |MODEL| Model that the shapes will be used to crop data (ETA40 or GEFS)| ETA40 |
 |SHAPES_DATABASE| Name of database with shapes|contornos|
 |GOOGLE_APPLICATION_CREDENTIALS| Path to .json file with Google Cloud Credentials|/run/secrets/credential.json|
-|GBQ_PROJECT_ID| Google Big Query project id|focus-bi|
+|GBQ_PROJECT_ID| Google Big Query project id|dataset|
 |GBQ_BASIN_DATA_TABLE| Google Big Query ingest table|Cptec.precipitacao_horaria_sub_bacia| 
 |GBQ_DATASET_LOCATION| Google Big Query table location|southamerica-east1|
 |POSTGRES_DATABASE| Name of database to store CPTEC Data|SeriesTemporaisCptec|
@@ -61,8 +61,8 @@ update the dashboard after data ingest. To use this functions this variables bel
 | Variable | Description | Example | 
 |   ---    |     ---     |   ---   |
 |POWERBI_REFRESH|Boolean to activate the function|TRUE| 
-|POWERBI_REFRESH_API_URL|API URL|http://powerbi-refresher.focus.energia.ws|
-|POWERBI_REFRESH_WORKSPACE|Power Bi workspace name|Focus Comercialização|
+|POWERBI_REFRESH_API_URL|API URL|http://powerbi-refresher.dominio.ws|
+|POWERBI_REFRESH_WORKSPACE|Power Bi workspace name| workspace|
 |POWERBI_REFRESH_DATASET|Power Bi dataset name|Chuva|
 
 ## Run
